@@ -1,7 +1,7 @@
 export default {
   translations: {
     header: {
-      inProgress: "In Progress...",
+      contact: "Contact",
       aboutMe: "About Me"
     },
     home: {

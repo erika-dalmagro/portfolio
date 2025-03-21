@@ -1,6 +1,6 @@
 :root {
-	--primary-light: #fdfff3;
-	--secondary-light: rgb(255 255 255);
+	--primary-light: rgb(106, 141, 23, 0.3);
+	--secondary-light: rgb(248 255 250);
 	--ternary-light: rgb(246 247 248);
 	--primary-dark: rgb(13 40 38);
 	--secondary-dark: rgb(16 45 68);
@@ -8,19 +8,6 @@
 	--green: rgb(196 239 0);
   }
 
-/*  
-	--text-primary-light: rgb(247 248 252);
-
-	.dark {	
-		--primary-light: #fdfff3;
-		--secondary-light: rgb(255 255 255);
-		--ternary-light: rgb(246 247 248);
-		--green: rgb(196 239 0);
-		--primary-dark: rgb(13 40 38);
-		--secondary-dark: rgb(16 45 68);
-		--ternary-dark: rgb(30 81 56);
-	}
-*/
 body {
 	font-family: 'GeneralSans-Variable';
 }
@@ -34,7 +21,6 @@ body {
 	justify-content: center;
 }
 
-/*---*/
 .hover\:text-green:hover {
 	--tw-text-opacity: 1;
 	color: rgb(196 239 0 / var(--tw-bg-opacity));
@@ -277,6 +263,7 @@ body {
 		opacity: 0.5;
 	}
 }
+
 .p-carousel-item {
 	display: flex;
 	justify-content: center;

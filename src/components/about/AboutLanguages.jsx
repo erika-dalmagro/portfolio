@@ -20,19 +20,19 @@ const AboutLanguages = () => {
     };
 	
 	return (
-		<div className="bg-primary-light dark:bg-ternary-dark mt-10 sm:mt-28 relative z-10">
+		<div className="bg-primary-light dark:bg-ternary-dark mt-10 sm:mt-28 relative z-10 bg-opacity-10 shadow-md">
 			<div className="container mx-auto py-10">
-				<p className="font-general-medium text-2xl sm:text-3xl text-center text-primary-dark dark:text-primary-light mb-4">
+				<p className="font-general-medium text-2xl sm:text-3xl text-center text-primary-dark dark:text-white mb-4">
 					{ t(languagesHeading) }
 				</p>
 				<div className="mx-24 gap-2">
 					<Carousel 
 						pt={{
 							previousbuttonicon: {
-								className: classNames('sm:w-12 sm:h-12 text-primary-dark dark:text-primary-light')
+								className: classNames('sm:w-12 sm:h-12 text-primary-dark dark:text-white')
 							},
 							nextbuttonicon: {
-								className: classNames('sm:w-12 sm:h-12 text-primary-dark dark:text-primary-light')
+								className: classNames('sm:w-12 sm:h-12 text-primary-dark dark:text-white')
 							},
 							
 						}}

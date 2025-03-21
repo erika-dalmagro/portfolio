@@ -1,14 +1,14 @@
 export default {
     translations: {
       header: {
-        inProgress: "Em desenvolvimento...",
+        contact: "Contato",
         aboutMe: "Sobre Mim"
       },
       home: {
         title: "Olá, eu sou a Érika!",
         subtitle: "Sou Desenvolvedora Full-Stack",
         text: "Trabalho na área desde 2018, com graduação em Análise e Desenvolvimento de Sistemas e pós-graduação em Segurança Digital, Governança e Gestão de Dados.",
-        downloadCV: "Baixar CV"
+        downloadCV: "Baixar Currículo"
       },
       about: {
         bio: {

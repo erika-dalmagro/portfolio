@@ -1,5 +1,5 @@
 
-import { AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import AppHeader from '../components/shared/AppHeader';
 import AppFooter from '../components/shared/AppFooter';
 import UseScrollToTop from '../hooks/useScrollToTop';
@@ -14,14 +14,20 @@ function MyApp({ Component, pageProps }) {
     <GlowCapture>
       <AnimatePresence>
         <Glow>
-          <div className="glow:bg-[#f5fadc] dark:glow:bg-[#214a47] bg-secondary-light dark:bg-primary-dark transition duration-300">
-            <div className="relative z-10">
-              <AppHeader />
-              <Component {...pageProps} />
-              <AppFooter />
-              <UseScrollToTop />
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ ease: 'easeInOut', duration: 0.6, delay: 0.2 }}
+          >
+            <div className="glow:bg-[#eefadc] dark:glow:bg-[#214a47] bg-secondary-light dark:bg-primary-dark transition duration-300">
+              <div className="relative z-10">
+                <AppHeader />
+                <Component {...pageProps} />
+                <AppFooter />
+                <UseScrollToTop />
+              </div>
             </div>
-          </div>
+          </motion.div>
         </Glow>
       </AnimatePresence>
     </GlowCapture>
