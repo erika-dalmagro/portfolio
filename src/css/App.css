@@ -1,15 +1,34 @@
 :root {
+	--tw-bg-opacity: 1;
 	--primary-light: rgb(106, 141, 23, 0.3);
 	--secondary-light: rgb(248 255 250);
 	--ternary-light: rgb(246 247 248);
 	--primary-dark: rgb(13 40 38);
 	--secondary-dark: rgb(16 45 68);
-	--ternary-dark: rgb(30 81 56);
+	--ternary-dark: rgb(37, 92, 64);
 	--green: rgb(196 239 0);
   }
 
 body {
 	font-family: 'GeneralSans-Variable';
+}
+
+html {
+	background-color: var(--secondary-light);
+}
+
+html.dark {
+	background-color: var(--primary-dark);
+}
+
+.hover\:hover-opacity:hover {
+	--tw-bg-opacity: 0.4;
+	background-color: rgb(106, 141, 23, var(--tw-bg-opacity));
+}
+
+.dark .dark\:hover\:hover-opacity:hover {
+	--tw-bg-opacity: 0.6;
+	background-color: rgb(39, 100, 70, var(--tw-bg-opacity));
 }
 
 .dark .glow-capture [glow] .dark {
@@ -21,23 +40,6 @@ body {
 	justify-content: center;
 }
 
-.hover\:text-green:hover {
-	--tw-text-opacity: 1;
-	color: rgb(196 239 0 / var(--tw-bg-opacity));
-}
-.hover\:text-green:hover {
-	--tw-text-opacity: 1;
-	color: rgb(196 239 0 / var(--tw-bg-opacity));
-}
-.dark .dark\:hover\:text-green:hover {
-	--tw-bg-opacity: 1;
-	color: rgb(196 239 0 / var(--tw-bg-opacity));
-}
-.dark .dark\:hover\:bg-green:hover {
-	--tw-bg-opacity: 1;
-	background-color: rgb(196 239 0 / var(--tw-bg-opacity));
-}
- 
 /* Fonts */
 @font-face {
 	font-family: 'GeneralSans-Variable';

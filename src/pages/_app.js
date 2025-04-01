@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
             animate={{ opacity: 1 }}
             transition={{ ease: 'easeInOut', duration: 0.6, delay: 0.2 }}
           >
-            <div className="glow:bg-[#eefadc] dark:glow:bg-[#214a47] bg-secondary-light dark:bg-primary-dark transition duration-300">
+            <div className="glow:bg-[#eefadc] dark:glow:bg-[#214a47] transition duration-300">
               <div className="relative z-10">
                 <AppHeader />
                 <Component {...pageProps} />

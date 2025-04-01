@@ -1,4 +1,3 @@
-// Import images
 import JavascriptImage from '../images/languages/javascript.svg';
 import PHPImage from '../images/languages/php.svg';
 import TypescriptImage from '../images/languages/typescript.svg';

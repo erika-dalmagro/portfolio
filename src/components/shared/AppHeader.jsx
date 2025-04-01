@@ -110,15 +110,15 @@ const AppHeader = () => {
 					>
 						{ t('header.aboutMe') }
 					</Link>
-					{/*					
+									
 					<Link
-						href="/contact"
+						href="/experience"
 						className="block text-left text-lg text-ternary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
-						aria-label="Contact"
+						aria-label={ t('header.workExperience') }
 					>
-						{ t('header.contact') }
+						{ t('header.workExperience') }
 					</Link>
-					*/}
+					
 				</div>
 
 				{/* Header right section buttons */}
@@ -133,25 +133,25 @@ const AppHeader = () => {
 						>
 							{ t('header.aboutMe') }
 						</Link>
-						{/*
+						
 						<Link
-							href="/contact"
+							href="/experience"
 							className="block text-left text-lg text-ternary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
-							aria-label="Contact"
+							aria-label={ t('header.workExperience') }
 						>
-							{ t('header.contact') }
+							{ t('header.workExperience') }
 						</Link>
-						*/}
+						
 					</div>
 
 					{/* Theme and language switcher large screen */}
 					<div
 						onClick={() => setLanguage(activeLanguage)}
 						aria-label="Language Switcher"
-						className="mx-4 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
+						className="mx-4 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl hover:opacity-10 cursor-pointer"
 					>
 						{activeTheme === 'light' ? (
-							<PiTranslate className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
+							<PiTranslate className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light text-xl" />
 						) : (
 							<PiTranslate className="text-gray-200 hover:text-gray-50 text-xl" />
 						)}
@@ -160,10 +160,10 @@ const AppHeader = () => {
 					<div
 						onClick={() => setTheme(activeTheme)}
 						aria-label="Theme Switcher"
-						className="mx-4 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
+						className="mx-4 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl hover:opacity-10 cursor-pointer"
 					>
 						{activeTheme === 'light' ? (
-							<FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
+							<FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light text-xl" />
 						) : (
 							<FiSun className="text-gray-200 hover:text-gray-50 text-xl" />
 						)}
