@@ -24,7 +24,7 @@ const Experience = () => {
 		<div className="container mx-auto">
 			<div className="title mx-10 block md:flex md:gap-10 md:mt-20 mt-16">
 				<div className="text-ternary-dark dark:text-ternary-light w-full">
-					<div className="flex flex-col sm:gap-20 md:flex-row">
+					<div className="flex flex-col md:gap-2 lg:gap-20 lg:flex-row">
 						<div className="flex flex-col gap-4 text-center sm:text-start">
 							<p className="text-sm tracking-[4px] text-[#6A8D17] dark:text-[#C4EF00]">{t("experience.time")}</p>
 							<h2 className="text-4xl font-bold">{t("experience.title")}</h2>

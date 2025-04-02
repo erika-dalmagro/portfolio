@@ -9,8 +9,8 @@ const ExperienceCard = ({ company, role, date, description }) => {
         </span>
       </div>
       <div className="w-full bg-primary-light dark:bg-ternary-dark bg-opacity-50 dark:hover:hover-opacity hover:hover-opacity duration-300 rounded-lg px-6 lg:px-10 flex flex-col justify-center gap-6 lg:gap-8 shadow-lg pt-8 pb-10">
-        <div className="flex flex-col sm:flex-row justify-between items-center">
-          <div className="flex flex-col justify-between items-center sm:items-start text-center">
+        <div className="flex flex-col sm:flex-row justify-between gap-4">
+          <div className="flex flex-col justify-between text-center sm:text-start">
             <h3 className="text-2xl sm:text-2xl font-semibold">
               {company}
             </h3>
