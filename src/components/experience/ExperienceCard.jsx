@@ -18,8 +18,8 @@ const ExperienceCard = ({ company, role, date, description }) => {
               {role}
             </p>
           </div>
-          <div className="px-4 py-2 bg-ternary-light bg-opacity-10 dark:bg-primary-dark rounded-lg shadow-lg">
-            <p className="flex justify-center items-center sm:text-sm font-medium text-[#6A8D17] dark:text-[#C4EF00]">
+          <div>
+            <p className="px-4 py-2 bg-ternary-light bg-opacity-10 dark:bg-primary-dark rounded-lg shadow-lg justify-center items-center sm:text-sm font-medium text-[#6A8D17] dark:text-[#C4EF00]">
               {date}
             </p>
           </div>
