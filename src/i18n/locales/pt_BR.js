@@ -12,8 +12,8 @@ export default {
       },
       about: {
         bio: {
-          partOne: "Sou uma Desenvolvedora que gosta de criar aplicações bem estruturadas, eficientes e escaláveis. Seja no front-end ou no back-end, adoro programar e resolver problemas complexos.",
-          partTwo: "Quando não estou programando, provavelmente estou lendo, passando tempo com meus cachorrinhos ou cuidando de meu jardim 🌻. Também adoro jogos de estratégia e me perder em um bom livro (obrigada, Kindle, por existir <3).",
+          partOne: "Adoro transformar ideias em aplicações bem estruturadas, eficientes e escaláveis. Tanto no front quanto no back, o que realmente me motiva é programar e encontrar soluções criativas para problemas complexos.",
+          partTwo: "Fora do código, você provavelmente vai me encontrar lendo, brincando com meus cachorrinhos ou mexendo nas plantas do meu jardim 🌻. Também adoro jogos de estratégia e me perder em um bom livro (valeu, Kindle <3).",
         },
         languagesAndFrameworks: "Linguagens & Frameworks"
       },

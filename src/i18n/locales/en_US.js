@@ -12,8 +12,8 @@ export default {
     },
     about: {
       bio: {
-        partOne: "I'm a developer who enjoys creating well-structured, efficient, and scalable applications. Whether it’s front-end or back-end, I love coding and solving complex problems.",
-        partTwo: "When I'm not coding, you'll probably find me reading, spending time with my dogs, or taking care of my garden 🌻. I also love playing strategy games and getting lost in a good book (thank you, Kindle, for existing <3).",
+        partOne: "I love turning ideas into well-structured, efficient, and scalable applications. Whether it's front-end or back-end, what truly drives me is coding and finding creative solutions to complex problems.",
+        partTwo: "Outside of coding, you’ll probably find me reading, playing with my dogs, or taking care of my garden 🌻. I also enjoy strategy games and getting lost in a good book (thanks, Kindle <3)."
       },
       languagesAndFrameworks: "Languages & Frameworks"
     },
