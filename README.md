@@ -1,7 +1,12 @@
-## Olá! Sejam bem vindos!
+# Hi, welcome!
 
-Este é meu portfólio!
+This is my portfolio!
 
-## Contato
-
-Email: erika.dmagro@gmail.com
+# Stack
+- Next.js/React
+- Tailwind
+- Framer Motion
+- i18next
+  
+## Contact
+- Email: erika.dmagro@gmail.com  
