@@ -1,4 +1,4 @@
-# Hi, welcome!
+# Hi, welcome! 👋
 
 This is my portfolio!
 
