@@ -6,7 +6,7 @@ export default {
     },
     home: {
       title: "Hi, I am Érika!",
-      subtitle: "I'm a Full-Stack Developer",
+      subtitle: "I'm a Full Stack Developer",
       text: "I've been working in the field since 2018, with a degree in Systems Analysis and Development and postgraduate degree in Digital Security, Governance, and Data Management.",
       downloadCV: "Download CV"
     },
